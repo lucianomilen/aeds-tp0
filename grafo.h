@@ -7,8 +7,8 @@
 
 typedef struct node //estrutura recursiva de lista encadeada
 {
-        struct node *prox;
-        int vertice; //identifica o valor do próximo nó
+    struct node *prox;
+    int vertice; //identifica o valor do próximo nó
 } node;
 
 int *leIdades(int nVertices);
